@@ -1,0 +1,25 @@
+
+<div style="text-align: center">
+  <h1>
+    Welcome to Home
+  </h1>
+</div>
+
+<div style="width: 50%; margin: auto">
+  <div class="dinamic">
+    <button mat-raised-button color="primary" [routerLink]="" fragment="one">
+      One
+    </button>
+    <button mat-raised-button color="primary" [routerLink]="" fragment="two">
+      Two
+    </button>     
+    <button mat-raised-button color="primary" [routerLink]="" fragment="three">
+      Three
+    </button>
+  </div>
+
+  <div>
+    <ng-container style="margin: auto" *ngComponentOutlet="dynamicComponent"></ng-container>
+  </div>
+</div>
+
